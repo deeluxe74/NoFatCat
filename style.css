@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family:'impact', sans-serif;
+    font-size: 90px;
+    color: rgb(170, 9, 63);
+    letter-spacing: 2px;
+}
+
+.global {
+    margin: 10% 15%;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    border: rgb(0, 0, 0) solid 9px;
+}
+
+input {
+    border: rgba(0, 0, 0, 0.521) dashed 3px;
+    color: black;
+    display: inline-block;
+    padding-left: 5%;
+    font-size: 70px;
+}
+
+/* ------------------- Corp du programme -------- */
+.header img {
+  z-index: -1;
+  position: absolute;
+  margin-top: -170px;
+  left: 60%;
+    
+}
+
+.title {
+    width: 50%;
+    
+}
+
+.allData {
+    width: 100%;
+    padding-top: 10%;
+    text-align: left;
+    color: rgba(158, 17, 76, 0.884);
+
+}
+
+
+/* ------------------- Classification -------- */
+
+.allData span {
+    padding-right: 100px;
+}
+
+.styleCat {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.styleCat input {
+    display: flex;
+    flex-direction: row;
+}
+.styleCat span {
+    padding: inherit;
+    color: rgb(170, 9, 63);
+    border: rgb(0, 0, 0) 5px solid;
+    border-radius: 50px;
+    width: 40%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
+.styleCat p {
+    font-size: 70%;   
+}
+
+/* ------------------- Entrer de texte/chiffre -------- */
+
+input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+}
+input[type=checkbox] {
+    border-radius: 10px;
+    height: 70px;
+    width: 15px;
+    background: rgb(252, 252, 252);
+    border: 2px solid rgb(7, 1, 1);
+}
+
+input[type="checkbox"]:checked {
+    background: rgb(124, 124, 124);
+    margin:0px;
+    position: relative;
+  }
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.801);
+  }
+
+  /* ------------------- Chekbox et le texte -------- */
+
+#Intérieur {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+
+}
+#Libre {
+    position: absolute;
+    top: 85%;
+    left: 25%;
+
+}
+
+.styleCat p {
+    margin-top: 60px;
+    position: relative;
+    
+}
+
+/* ------------- Bouton ------------- */
+.txtSubmit {
+    color:rgb(170, 9, 63);
+    display:inline-block;
+    padding:0.46em 1.6em;
+    border:2px solid #000000;
+    margin:0 0.2em 0.2em 0;
+    border-radius:0.2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    background-color:rgba(0, 0, 0, 0.897);
+    text-align:center;
+    transition: all 0.30s;
+    font-size: 80px;
+    }
+
+
+
+    
+.txtSubmit:hover{
+    color:rgba(170, 9, 63, 0.568);
+    border-color:rgb(255, 255, 255);
+    background-color:rgba(0, 0, 0, 0.699);
+    }
+
+
+/* --------------- PAGE 2 -----------------------*/
+
+.catResult {
+    position: relative;
+    top: -100px;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.11);
+    border: black 5px solid;
+    padding: 100px 40px;
+    width: 40%;
+    margin-left: 25%;
+    border-radius: 90px 90px 90px 90px;
+}
+
+.txtResult {
+    display: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    width: 100%;
+    font-size: 50%;
+    color: black;
+    margin: 5% 0;
+    text-align: left;
+    letter-spacing: -2px;
+}
+
+.happyCat {
+    display: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    width: 100%;
+    font-size: 50%;
+    color: rgb(170, 9, 63);
+    letter-spacing: -2px;
+}
+
+.happyCat img {
+    display: none;
+    margin-left: 25%;
+    margin-top: 120px;
+}
+
+
+
+
+
+
+
+
+
